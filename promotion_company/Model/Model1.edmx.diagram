@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59d29bee88d9427fb8f4f52699a28e73" Name="Diagram1">
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.Actions" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.ActionTypes" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.Fines" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.PromoterActions" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.Roles" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="PromoterAgencySochnevModel.Users" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__Actions__ActionT__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__Fines__ActionId__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__PromoterA__Actio__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__Fines__UserId__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__PromoterA__UserI__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="PromoterAgencySochnevModel.FK__Users__RoleId__3A81B327" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
