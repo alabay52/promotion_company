@@ -8,8 +8,8 @@
       Title="Мои акции" Height="650" Width="600">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100" />
-            <RowDefinition Height="500" />
+            <RowDefinition Height="200" />
+            <RowDefinition Height="400" />
         </Grid.RowDefinitions>
         <ListView Name="gridActions" Grid.Row="0" >
             <ListView.View>
@@ -28,38 +28,38 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="50" />
                 <RowDefinition Height="10" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="10" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="10" />
                 <RowDefinition Height="20" />
                 <RowDefinition Height="10" />
                 <RowDefinition Height="50" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="20" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="20" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="10" />
-                <RowDefinition Height="50" />
+               
+               
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="14" Grid.Column="0" Text="Выберите дату"/>
+            <TextBlock Grid.Row="6" Grid.Column="0" Text="Выберите дату"/>
 
-            <DatePicker  Name="DatePicker" Grid.Row="14" Grid.Column="2" Width="200" />
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Введите название акции"/>
-            <TextBlock Grid.Row="10" Grid.Column="0" Text="Введите  локацию"/>
-            <TextBox Name="" Grid.Row="12" Grid.Column="2" Height="45" Width="200"/>
+            <DatePicker  Name="DatePicker" Grid.Row="6" Grid.Column="2" Width="200" />
+            <TextBlock Grid.Row="8" Grid.Column="0" Text="Выберите дату"/>
+
+            <DatePicker  Name="DatePickerEnd" Grid.Row="8" Grid.Column="2" Width="200" />
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Введите название акции"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Введите  локацию"/>
+            
+            <TextBox Name="" Grid.Row="4" Grid.Column="2" Height="45" Width="200"/>
 
 
-            <ComboBox Name="SpecialCmb" Grid.Row="4" Grid.Column="0" Height="45" Width="200"/>
-            <TextBox Name="DirectionCmb" Grid.Row="4" Grid.Column="2" Height="45" Width="200"/>
-            <ComboBox Name="GroupCmb" Grid.Row="8" Grid.Column="0" Height="45" Width="200"/>
+            <ComboBox Name="SpecialCmb" Grid.Row="2" Grid.Column="0" Height="45" Width="200"/>
+            <TextBox Name="DirectionCmb" Grid.Row="0" Grid.Column="2" Height="45" Width="200"/>
+ 
             
 
-            <TextBlock Grid.Row="6" Grid.Column="0" Text="Выберите тип акции"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Выберите тип акции"/>
            
             
 
